@@ -1,4 +1,5 @@
-input = open('input.txt').readlines()
+import sys
+input = sys.stdin.readlines()
 
 input = [int(x.strip()) for x in input]
 
