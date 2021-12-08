@@ -93,7 +93,7 @@ for line in input:
                 mapping[s] = '3'
                 break
 
-    #from pprint import pprint;print('display:');pprint(display);print('found:',found);print('mapping:');pprint(mapping);break
+
     # display should be complete, complete the mapping
     for s in signals:
         set_s = set(s)
